@@ -5,6 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "generate_preview":"nuxt generate && nuxt preview",
+    "generate_preview_rm":"cmd rmdir /Q /S '.nuxt' ; nuxt generate && nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
