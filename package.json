@@ -5,11 +5,13 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "generate_preview":"nuxt generate && nuxt preview",
-    "generate_preview_rm":"cmd rmdir /Q /S '.nuxt' ; nuxt generate && nuxt preview",
-    "postinstall": "nuxt prepare"
+    "generate_preview": "nuxi generate && nuxi preview",
+    "generate_preview_rm": "cmd rmdir /Q /S '.nuxt' ; nuxt generate && nuxt preview",
+    "postinstall": "nuxt prepare",
+    "gh-pages-deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "nuxt": "3.0.0"
   }
 }
