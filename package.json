@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "generate_preview": "nuxi generate && nuxi preview",
     "postinstall": "nuxt prepare",
-    "gh-pages-deploy": "gh-pages -d dist"
+    "gh-pages-deploy": "gh-pages --dotfiles --dist dist"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",

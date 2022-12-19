@@ -11,7 +11,9 @@ NUXT_APP_BASE_URL=/nuxt3-generate/
 
 # 4. run
 pnpm run generate
-pnpm run gh-pages -d dist
+pnpm run gh-pages-deploy
+# gh-pages --dotfiles --dist dist
+# --dotfiles is important. or it wont push .nojekyll
 ```
 
 
